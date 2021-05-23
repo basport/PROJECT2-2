@@ -47,9 +47,9 @@ class ViewController: UIViewController {
         rLabel.text = String(format: "%.2f", rSlider.value)
         gLabel.text = String(format: "%.2f", gSlider.value)
         bLabel.text = String(format: "%.2f", bSlider.value)
-        
-        changeColor()
     }
     
+    @IBAction func viewChanged(_ sender: Any) {
+        changeColor()
+    }
 }
-
